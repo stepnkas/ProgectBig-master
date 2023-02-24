@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+@font-face {
+  font-family: 'philosopherbold';
+  src: url('philosopher-bold-webfont.woff2/fonts/') format('woff2'),
+       url('philosopher-bold-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'philosopherbold_italic';
+  src: url('philosopher-bolditalic-webfont.woff2/fonts/') format('woff2'),
+       url('philosopher-bolditalic-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'philosopheritalic';
+  src: url('philosopher-italic-webfont.woff2/fonts/') format('woff2'),
+       url('philosopher-italic-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'philosopherregular';
+  src: url('philosopher-regular-webfont.woff2/fonts/') format('woff2'),
+       url('philosopher-regular-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'robotoblack';
+  src: url('roboto-black-webfont.woff2/fonst/') format('woff2'),
+       url('roboto-black-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'robotoblack_italic';
+  src: url('roboto-blackitalic-webfont.woff2/fonts/') format('woff2'),
+       url('roboto-blackitalic-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'robotobold';
+  src: url('roboto-bold-webfont.woff2/fonts/') format('woff2'),
+       url('roboto-bold-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'robotobold_italic';
+  src: url('roboto-bolditalic-webfont.woff2/fonts/') format('woff2'),
+       url('roboto-bolditalic-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'robotoitalic';
+  src: url('roboto-italic-webfont.woff2/fonts/') format('woff2'),
+       url('roboto-italic-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'robotolight';
+  src: url('roboto-light-webfont.woff2/fonts/') format('woff2'),
+       url('roboto-light-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'robotolight_italic';
+  src: url('roboto-lightitalic-webfont.woff2/fonts/') format('woff2'),
+       url('roboto-lightitalic-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'robotomedium';
+  src: url('roboto-medium-webfont.woff2/fonts/') format('woff2'),
+       url('roboto-medium-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'robotomedium_italic';
+  src: url('roboto-mediumitalic-webfont.woff2/fonts/') format('woff2'),
+       url('roboto-mediumitalic-webfont.woff/fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+body {
+    min-width: 1100px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    font-weight:400;
+    color:#000;
+}  
+/*------------header--------------------------------*/
+.header {
+  min-height:46px;
+  background-color:none;
+}
+.section {
+  padding: 30px;
+}
+.section__wrapper {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.menu {
+  flex-grow: 1;
+  padding-top: 8px;
+}
+.menu__list {
+  display: flex;
+}
+.menu__item {
+  width: 80px;
+  height: 20px;
+}
+.menu__link {
+  text-decoration: none;
+  color: #666;
+}
+.newlink {
+  color: rgb(220, 120, 11);
+}
+.button{
+  width: 155px;
+  height: 46px;
+  left: 1135px;
+  top: 30px;
+  background-color: rgb(220, 120, 11);
+  color: rgb(250, 250, 250);
+  border-style: none;
+  border-radius: 6px;
+}
+ul {
+  list-style: none;
+}
+.header-menu {
+  min-height:90px;
+}
+.container {
+  position:relative;
+  max-width:1110px;
+  margin:0auto;
+}
+.banner {
+
+}
+/*-----------main-------------------------*/
+.button2 {
+  width: 155px;
+  height: 66px;
+  left: 1135px;
+  top: 30px;
+  background-color: rgb(243, 243, 243);
+  color: rgb(220, 120, 11);
+  border-style: none; 
+  border-radius: 6px;
+  
+}
+
+.das {
+  height: 66px;
+}
+.dvebutton {
+  padding-top: 42px;
+}
+.text1 {
+  font-family: 'Philosopher';
+  font-size: 48.83px;
+  height: 200px;
+  width: 530px;
+}
+.text2 {
+  font-size: 16px;
+  padding-top: 42px;
+}
+.slider__item_text {
+  padding-top: 120px;
+  height: 670px;
+  width: 555px;
+}
+.slider__item_photo {
+  width: 531px;
+  height: 670px;
+  left: 636px;
+  top: 30px;
+}
+.slider__item {
+  display: flex;
+}
+.delivery {
+
+}
+.Aboutus {
+
+}
+.Menu__food {
+
+}
+.mobail__app {
+
+}
+.testimonial {
+
+}
+.contact {
+
+}
+/*----------footer--------------------------------------------*/
