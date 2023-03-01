@@ -177,7 +177,6 @@ ul {
 .banner {
 
 }
-/*-----------main-------------------------*/
 .button2 {
   width: 155px;
   height: 66px;
@@ -237,5 +236,62 @@ ul {
 }
 .contact {
 
+}
+/*-----------main-------------------------*/
+.unifacation {
+  flex-direction: column;
+}
+.uilka {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  flex-wrap: nowrap;
+  padding-left: 0%;
+}
+.three {
+  width: 300px;
+}
+.main31 {
+ text-align: center;
+ font-family: 'Philosopher';
+}
+.text31 {
+  text-align: center;
+}
+.reject {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.vain32 {
+  color: rgb(220, 120, 11);
+  font-size: 15px;
+}
+.vain31 {
+  font-family: 'Philosopher';
+  font-size: 32px;
+}
+.idinax {
+  width: 555px;
+  height: 480px;
+  left: 636px;
+  top: 30px;
+  border-radius: 40px;
+}
+.eshe {
+  padding-top: 50px;
+}
+.group32 {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.text81 {
+  font-size: 36px;
+  height: 175px;
+}
+.text82 {
+  text-align: left;
+  padding-bottom: 32px;
 }
 /*----------footer--------------------------------------------*/
