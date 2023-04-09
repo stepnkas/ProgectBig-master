@@ -270,12 +270,27 @@ ul {
   font-family: 'Philosopher';
   font-size: 32px;
 }
-.idinax {
+/* .idinax {
   width: 555px;
-  height: 480px;
+  height: 500px;
   left: 636px;
   top: 30px;
   border-radius: 40px;
+} */
+.photo {
+  position: relative;
+  overflow: hidden;
+  width: 1200px;
+  height: 500px;
+  border-radius: 35px;
+  background-size: cover;
+  background-position: center center;
+}
+.photo img {
+  position: absolute;
+  transform: translate(-8%, -1%);
+  width: 800px;
+  height: 500px;
 }
 .eshe {
   padding-top: 50px;
@@ -293,5 +308,48 @@ ul {
 .text82 {
   text-align: left;
   padding-bottom: 32px;
+}
+.vain33 {
+  text-align: center;
+}
+.hh2 {
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.tovar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 40px;
+  box-sizing: border-box;
+  margin: 5px;
+}
+.catalo1 {
+  overflow: hidden;
+}
+.rig {
+  float: right;
+}
+.lef {
+ float: left;
+}
+.catalo2 {
+  display: flex;
+  flex-direction:column;
+}
+.aga {
+  padding-top: 10px;
+}
+.button3 {
+  background-color: rgb(220, 120, 11);
+  color: rgb(250, 250, 250);
+  border-style: none;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+}
+.agga {
+  padding-top:30px; ;
 }
 /*----------footer--------------------------------------------*/
