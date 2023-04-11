@@ -224,12 +224,6 @@ ul {
 .Menu__food {
   padding-top: 120px;
 }
-.mobail__app {
-
-}
-.testimonial {
-
-}
 .contact {
   padding-top: 100px;
 }
@@ -348,16 +342,7 @@ ul {
   margin: 20px;
 }
 
-@media (max-width:900px) {
-  .tovar {
-      grid-template-columns: 1fr 1fr;
-  }
-}
-@media (max-width:550px) {
-  .tovar {
-      grid-template-columns: 1fr;
-  }
-}
+
 .aga {
   padding-top: 10px;
 }
@@ -422,4 +407,14 @@ ul {
 }
 .site {
   padding-top: 10px;
+}
+@media (max-width:950px) {
+  .tovar {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width:600px) {
+  .tovar {
+      grid-template-columns: 1fr;
+  }
 }
