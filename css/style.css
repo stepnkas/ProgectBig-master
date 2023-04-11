@@ -174,9 +174,6 @@ ul {
   max-width:1110px;
   margin:0auto;
 }
-.banner {
-
-}
 .button2 {
   width: 155px;
   height: 66px;
@@ -188,7 +185,6 @@ ul {
   border-radius: 6px;
   
 }
-
 .das {
   height: 66px;
 }
@@ -220,13 +216,13 @@ ul {
   display: flex;
 }
 .delivery {
-
+  padding-top: 70px;
 }
 .Aboutus {
-
+  padding-top: 100px;
 }
 .Menu__food {
-
+  padding-top: 120px;
 }
 .mobail__app {
 
@@ -235,7 +231,7 @@ ul {
 
 }
 .contact {
-
+  padding-top: 100px;
 }
 /*-----------main-------------------------*/
 .unifacation {
@@ -285,6 +281,11 @@ ul {
   border-radius: 35px;
   background-size: cover;
   background-position: center center;
+}
+.chel {
+  width: 900px;
+  text-align: center;
+  padding-left: 250px;
 }
 .photo img {
   position: absolute;
@@ -338,6 +339,25 @@ ul {
   display: flex;
   flex-direction:column;
 }
+.tovar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 30px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+@media (max-width:900px) {
+  .tovar {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width:550px) {
+  .tovar {
+      grid-template-columns: 1fr;
+  }
+}
 .aga {
   padding-top: 10px;
 }
@@ -350,6 +370,56 @@ ul {
   height: 30px;
 }
 .agga {
-  padding-top:30px; ;
+  padding-top:30px;
+}
+.polzov {
+  padding-left: 10px;
+  width: 550px;
+  height: 75px;
+}
+.assa {
+  padding-left: 250px;
+}
+.ddd{
+  display: flex;
+  justify-content: space-between;
+}
+.dd {
+  padding-top: 25px;
+  padding-right: 150px;
+}
+.das1 {
+  height: 75px;
+}
+.dddddd {
+  padding-bottom: 140px;
 }
 /*----------footer--------------------------------------------*/
+.footerfood {
+  background-color: 
+  rgba(37, 37, 37, 1);
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.footerselect {
+  color: 
+  rgba(255, 255, 255, 1);
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.dablin {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.footeritems1 {
+  padding-bottom: 10px;
+  font-family: 'Philosopher';
+  font-size: 18px;
+}
+.footeritems{
+  padding-bottom: 6px;
+}
+.site {
+  padding-top: 10px;
+}
