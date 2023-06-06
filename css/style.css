@@ -16,33 +16,9 @@
 
 }
 @font-face {
-  font-family: 'philosopheritalic';
-  src: url('philosopher-italic-webfont.woff2/fonts/') format('woff2'),
-       url('philosopher-italic-webfont.woff/fonts/') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-@font-face {
-  font-family: 'philosopherregular';
-  src: url('philosopher-regular-webfont.woff2/fonts/') format('woff2'),
-       url('philosopher-regular-webfont.woff/fonts/') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-@font-face {
   font-family: 'robotoblack';
   src: url('roboto-black-webfont.woff2/fonst/') format('woff2'),
        url('roboto-black-webfont.woff/fonts/') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-@font-face {
-  font-family: 'robotoblack_italic';
-  src: url('roboto-blackitalic-webfont.woff2/fonts/') format('woff2'),
-       url('roboto-blackitalic-webfont.woff/fonts/') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -53,7 +29,6 @@
        url('roboto-bold-webfont.woff/fonts/') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 @font-face {
   font-family: 'robotobold_italic';
@@ -61,7 +36,6 @@
        url('roboto-bolditalic-webfont.woff/fonts/') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 @font-face {
   font-family: 'robotoitalic';
@@ -75,14 +49,6 @@
   font-family: 'robotolight';
   src: url('roboto-light-webfont.woff2/fonts/') format('woff2'),
        url('roboto-light-webfont.woff/fonts/') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-@font-face {
-  font-family: 'robotolight_italic';
-  src: url('roboto-lightitalic-webfont.woff2/fonts/') format('woff2'),
-       url('roboto-lightitalic-webfont.woff/fonts/') format('woff');
   font-weight: normal;
   font-style: normal;
 
