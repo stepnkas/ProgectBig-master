@@ -114,7 +114,6 @@ html {
     box-sizing: inherit;
   }
 body {
-    min-width: 1100px;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -122,13 +121,17 @@ body {
     font-weight:400;
     color:#000;
 }  
+main {
+  padding: 0;
+  margin: 0;
+}
 /*------------header--------------------------------*/
 .header {
   min-height:46px;
   background-color:none;
 }
 .section {
-  padding: 30px;
+  padding: 15px;
 }
 .section__wrapper {
   display:flex;
@@ -143,15 +146,27 @@ body {
   display: flex;
 }
 .menu__item {
-  width: 80px;
+  width: 12%;
   height: 20px;
 }
 .menu__link {
   text-decoration: none;
   color: #666;
+  transition: color 0.6s;
+}
+.menu__link:hover, 
+.menu__link:focus {
+  text-decoration: overline rgb(220, 120, 11);
+  color: rgb(220, 120, 11);
 }
 .newlink {
   color: rgb(220, 120, 11);
+  transition: color 0.6s;
+}
+.newlink:hover, 
+.newlink:focus {
+  text-decoration: overline #666;
+  color: #666;
 }
 .button{
   width: 155px;
@@ -162,6 +177,13 @@ body {
   color: rgb(250, 250, 250);
   border-style: none;
   border-radius: 6px;
+  transition: border-radius 0.3s, background-color 0.3s, color 0.3s;
+}
+.button:hover,
+.button:focus {
+  border-radius: 1px;
+  background-color: rgb(243, 243, 243);
+  color: rgb(220, 120, 11);
 }
 ul {
   list-style: none;
@@ -171,8 +193,8 @@ ul {
 }
 .container {
   position:relative;
-  max-width:1110px;
-  margin:0auto;
+  max-width: 1140px;
+  margin:0 auto;
 }
 .button2 {
   width: 155px;
@@ -183,7 +205,13 @@ ul {
   color: rgb(220, 120, 11);
   border-style: none; 
   border-radius: 6px;
-  
+  transition: border-radius 0.3s, background-color 0.3s, color 0.3s;
+}
+.button2:hover,
+.button2:focus {
+  border-radius: 1px;
+  background-color: rgb(220, 120, 11);
+  color: rgb(250, 250, 250);
 }
 .das {
   height: 66px;
@@ -194,38 +222,46 @@ ul {
 .text1 {
   font-family: 'Philosopher';
   font-size: 48.83px;
-  height: 200px;
-  width: 530px;
+  height: 50%;
+  width: 100%;
+}
+.photoskov {
+  width: 100%;
+  height: 100%;
 }
 .text2 {
   font-size: 16px;
-  padding-top: 42px;
-}
-.slider__item_text {
-  padding-top: 120px;
-  height: 670px;
-  width: 555px;
-}
-.slider__item_photo {
-  width: 531px;
-  height: 670px;
-  left: 636px;
-  top: 30px;
+  padding-top: 10%;
 }
 .slider__item {
   display: flex;
 }
+.catalo_item {
+  width: 90%;
+}
+.slider__item_text {
+  padding-top: 5%;
+  height: 100%;
+  width: 40%;
+}
+.slider__item_photo {
+  width: 40%;
+  height: 670px;
+  padding-left: 1%;
+  top: 30px;
+}
 .delivery {
-  padding-top: 70px;
+  padding-top: 30px;
 }
 .Aboutus {
-  padding-top: 100px;
+  padding-top: 30px;
+  padding-right: 1%;
 }
 .Menu__food {
-  padding-top: 120px;
+  padding-top: 30px;
 }
 .contact {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 /*-----------main-------------------------*/
 .unifacation {
@@ -239,13 +275,15 @@ ul {
   padding-left: 0%;
 }
 .three {
-  width: 300px;
+  width: 100%;
+  margin: 8px;
 }
 .main31 {
  text-align: center;
  font-family: 'Philosopher';
 }
 .text31 {
+  width: 100%;
   text-align: center;
 }
 .reject {
@@ -260,32 +298,25 @@ ul {
   font-family: 'Philosopher';
   font-size: 32px;
 }
-/* .idinax {
-  width: 555px;
-  height: 500px;
-  left: 636px;
-  top: 30px;
-  border-radius: 40px;
-} */
+.ten {
+  padding-top: 10px;
+}
 .photo {
   position: relative;
   overflow: hidden;
   width: 1200px;
   height: 500px;
-  border-radius: 35px;
+  border-radius: 32px;
   background-size: cover;
   background-position: center center;
+  transform: scale(2);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
 }
 .chel {
-  width: 900px;
+  width: 90%;
   text-align: center;
-  padding-left: 250px;
-}
-.photo img {
-  position: absolute;
-  transform: translate(-8%, -1%);
-  width: 800px;
-  height: 500px;
+  padding-left: 15%;
 }
 .eshe {
   padding-top: 50px;
@@ -294,34 +325,32 @@ ul {
   padding-top: 50px;
   display: flex;
   justify-content: space-between;
-  padding-left: 20px;
+  padding-left: 5%;
 }
 .text81 {
   font-size: 36px;
-  height: 175px;
+  height: 40%;
 }
 .text82 {
   text-align: left;
-  padding-bottom: 32px;
+  padding-bottom: 6%;
 }
 .vain33 {
   text-align: center;
 }
 .hh2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 50px;
-  padding-left: 10%;
+  padding-left: 20%;
   padding-right: 10%;
 }
-.tovar {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 40px;
-  column-gap: 40px;
-  box-sizing: border-box;
-  margin: 5px;
-}
-.catalo1 {
+.pppp {
   overflow: hidden;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
 }
 .rig {
   float: right;
@@ -341,8 +370,6 @@ ul {
   box-sizing: border-box;
   margin: 20px;
 }
-
-
 .aga {
   padding-top: 10px;
 }
@@ -353,25 +380,44 @@ ul {
   border-radius: 6px;
   width: 30px;
   height: 30px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.button3:hover,
+.button3:focus {
+  background-color: rgb(250, 250, 250);
+  color: rgb(220, 120, 11);
 }
 .agga {
   padding-top:30px;
 }
+.oga {
+  text-decoration: none;
+  color: rgb(220, 120, 11);
+  text-align: center;
+  font-family: 'Roboto';
+  transition: color 0.5s;
+}
+.oga:hover,
+.oga:focus {
+  color: #666;
+}
 .polzov {
   padding-left: 10px;
-  width: 550px;
+  width: 100%;
   height: 75px;
 }
 .assa {
-  padding-left: 250px;
+  width: 100%;
+  padding-left: 15%;
 }
 .ddd{
   display: flex;
   justify-content: space-between;
 }
 .dd {
+  padding-left: 3%;
   padding-top: 25px;
-  padding-right: 150px;
+  padding-right: 10%;
 }
 .das1 {
   height: 75px;
@@ -379,12 +425,32 @@ ul {
 .dddddd {
   padding-bottom: 140px;
 }
+.Masiv {
+  text-transform: uppercase;
+}
+.progressbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background-color: rgb(220, 120, 11);
+  transform-origin: left center;
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+  z-index: 999;
+}
+.photo--active {
+  opacity: 1;
+  transform: scale(1);
+}
 /*----------footer--------------------------------------------*/
 .footerfood {
   background-color: 
   rgba(37, 37, 37, 1);
   padding-top: 5%;
   padding-bottom: 3%;
+  width: 100%;
 }
 .footerselect {
   color: 
@@ -395,7 +461,6 @@ ul {
 .dablin {
   display: flex;
   justify-content: space-between;
-  height: 100%;
 }
 .footeritems1 {
   padding-bottom: 10px;
@@ -408,13 +473,144 @@ ul {
 .site {
   padding-top: 10px;
 }
-@media (max-width:950px) {
+.tte {
+  text-decoration: none;
+}
+@media (max-width:1400px) {
+  .tovar {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width:1200px) {
   .tovar {
       grid-template-columns: 1fr 1fr;
   }
 }
-@media (max-width:600px) {
+@media (max-width:992px) {
+  .tovar {
+      grid-template-columns: 1fr 1fr;
+  }
+  .catalog_item {
+    width: 80%;
+  }
+  .slider__item_text {
+    width: 80%;
+    padding: 5%;
+
+  }
+  .slider__item_photo {
+    width: 0;
+    height: 0;
+  }
+  .text81 {
+    font-size: 36px;
+    height: 56%;
+  }
+}
+@media (max-width:768px) {
   .tovar {
       grid-template-columns: 1fr;
+  }
+  .menu__item {
+    width: 16%;
+  }
+  .photo {
+    width: 0;
+    height: 0;
+  }
+  .Masiv {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .catalog_item {
+    padding-left: 9%;
+  }
+}
+@media (max-width:576px) {
+  .tovar {
+      grid-template-columns: 1fr;
+  }
+  .menu__item {
+    width: 24%;
+  }
+  .buttonli {
+    width: 108px;
+  }
+  .menu__list{
+    padding-left: 4px;
+  }
+  .section__wrapper {
+    padding: 0;
+  }
+  .footerselect {
+    padding: 0%;
+  }
+}
+@media (max-width:320px) {
+  .tovar {
+      grid-template-columns: 1fr;
+  }
+  .header-menu {
+    padding: 5px;
+  }
+  .menu__list{
+    padding-left: 0;
+    padding: 2px;
+  }
+  .dablin {
+    flex-direction: column;
+    text-align: center;
+  }
+  .pppp {
+    width: 100%;
+  }
+  .das1 {
+    width: 53px;
+    height: 55px;
+  }
+  .polzov {
+    height: 55px;
+  }
+  .dddddd {
+    padding-bottom: 30px;
+  }
+  .vain31 {
+    font-family: 'Philosopher';
+    font-size: 22px;
+  }
+  .text81 {
+    font-size: 26px;
+    height: 45%;
+    padding-bottom: 12px;
+  }
+  .group32 {
+    padding: 0;
+  }
+  .hh2 {
+    padding-left: 12%;
+  }
+  .Aboutus {
+    padding-top: 0;
+  }
+  .eshe {
+    padding-top: 10px;
+  }
+  .uilka {
+    flex-direction: column;
+  }
+  .text1 {
+    font-size: 26px;
+  }
+  .slider__item_text {
+    width: 100%;
+  }
+  .menu__list {
+    width: 200px;
+    flex-wrap: wrap;
+  }
+  .menu__item {
+    padding: 2px;
+    width: 65.2px;
+    height: 50px;
   }
 }
