@@ -435,6 +435,9 @@ ul {
   .catalog_item {
     padding-left: 9%;
   }
+  .uilka {
+    flex-direction: column;
+  }
 }
 @media (max-width:576px) {
   .tovar {
@@ -448,9 +451,6 @@ ul {
   }
   .footerselect {
     padding: 0%;
-  }
-  .uilka {
-    flex-direction: column;
   }
   .text1 {
     font-size: 26px;
