@@ -427,6 +427,7 @@ ul {
   .photo {
     width: 0;
     height: 0;
+    visibility:hidden;
   }
   .Masiv {
     text-transform: uppercase;
@@ -471,7 +472,7 @@ ul {
     height: 0;
     width: 0;
     padding: 0;
-    opacity: 0;
+    visibility:hidden;
   }
 }
 @media (max-width:320px) {
