@@ -25,7 +25,7 @@ main {
 /*------------header--------------------------------*/
 .header {
   min-height:46px;
-  background-color:none;
+  background-color:white;
 }
 .section {
   padding: 15px;
